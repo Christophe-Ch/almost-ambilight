@@ -1,13 +1,6 @@
 import { ImageProcessor } from "./image-processor.js";
 import { Point } from "./point.js";
 
-const Position = {
-  TopLeft: 1,
-  TopRight: 2,
-  BottomRight: 3,
-  BottomLeft: 4,
-};
-
 class Handle {
   /**
    * Handle position.

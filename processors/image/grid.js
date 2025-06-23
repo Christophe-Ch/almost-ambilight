@@ -2,7 +2,6 @@ import {
   FunctionParameters,
   PointInsideStrategy,
 } from "./point-inside-strategy.js";
-import { Point } from "./point.js";
 import { Polygon } from "./polygon.js";
 
 /**

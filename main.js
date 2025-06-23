@@ -10,7 +10,7 @@ const createWindow = () => {
     width: 800,
     height: 600,
     webPreferences: {
-      preload: path.join(__dirname, "preload.js"),
+      preload: path.join(__dirname, "electron", "preload.js"),
     },
   });
 
@@ -25,7 +25,7 @@ const createWindow = () => {
     });
   });
 
-  win.loadFile("index.html");
+  win.loadFile("pages/index.html");
   win.webContents.openDevTools();
 };
 
